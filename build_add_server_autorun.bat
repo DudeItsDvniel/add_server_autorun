@@ -1,0 +1,1 @@
+pyinstaller -i "C:\Windows\regedit.exe" -F -w --runtime-tmpdir="." -n add_server_autorun --uac-admin --key ChangeThisKeyWhenBuilding add_server_autorun.py
